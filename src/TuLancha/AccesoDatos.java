@@ -29,7 +29,7 @@ public class AccesoDatos {
         clientes.clear();
         try {
             String line;
-            File archivo = new File("C:\\Users\\info\\Downloads\\TuLancha\\TuLanchaDashBoard-master\\src\\TuLancha\\Clientes.csv");
+            File archivo = new File("C:\\Users\\warne\\OneDrive\\Escritorio\\TuLanchaDashBoard-master\\src\\TuLancha\\Clientes.csv");
             br = new BufferedReader(new FileReader(archivo));
             while ((line = br.readLine()) != null) {
                 String[] atributos = line.split(",");
@@ -55,7 +55,7 @@ public class AccesoDatos {
         ventas.clear();
         try {
             String line;
-            File archivo = new File("C:\\Users\\info\\Downloads\\TuLancha\\TuLanchaDashBoard-master\\src\\TuLancha\\Ventas.csv");
+            File archivo = new File("C:\\Users\\warne\\OneDrive\\Escritorio\\TuLanchaDashBoard-master\\src\\TuLancha\\Ventas.csv");
             br = new BufferedReader(new FileReader(archivo));
             while ((line = br.readLine()) != null) {
                 String[] atributos = line.split(",");

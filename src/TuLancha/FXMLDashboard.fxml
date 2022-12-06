@@ -31,7 +31,7 @@
                         <Insets left="5.0" right="5.0" />
                      </VBox.margin>
                   </BarChart>
-                  <PieChart fx:id="grafPieChart" prefHeight="394.0" prefWidth="452.0" style="-fx-background-color: #fff; -fx-background-radius: 30; -fx-border-radius: 30;" title="Clientes por Género">
+                  <PieChart fx:id="grafPieChart" prefHeight="394.0" prefWidth="452.0" style="-fx-background-color: #fff; -fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@pieChartYlineChartStyles.css" title="Clientes por Género">
                      <VBox.margin>
                         <Insets left="5.0" right="5.0" top="20.0" />
                      </VBox.margin>
@@ -64,7 +64,7 @@
                         <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                      </columnResizePolicy>
                   </TableView>
-                  <LineChart fx:id="Graf2LineChart" prefHeight="416.0" prefWidth="705.0" style="-fx-background-color: #fff; -fx-background-radius: 30; -fx-border-radius: 30;" title="A ESCOGER">
+                  <LineChart fx:id="Graf2LineChart" prefHeight="416.0" prefWidth="705.0" style="-fx-background-color: #fff; -fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@pieChartYlineChartStyles.css" title="A ESCOGER">
                     <xAxis>
                       <CategoryAxis side="BOTTOM" />
                     </xAxis>

@@ -1,0 +1,47 @@
+
+.chart{
+    -fx-background-color: transparente;
+    -fx-padding: 0px;
+}
+
+.chart-legend {
+    -fx-background-color: transparente;
+    -fx-font: 15px "Georgia";
+}
+
+.axis { 
+    -fx-tick-label-fill: #000000;
+    -fx-font: "Georgia"; 
+}
+
+.chart-legend-item{
+    -fx-text-fill: #000000;
+    -fx-font: 15px "Georgia"; 
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: #4381e6;
+}
+
+.default-color1.chart-series-line {
+    -fx-stroke: #2ca83e;
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: #4381e6;
+}
+
+.default-color1.chart-line-symbol {
+    -fx-background-color: #2ca83e;
+}
+
+.chart-title {
+    -fx-font: 17px "Georgia Bold"; 
+}
+
+.default-color0.chart-pie {
+    -fx-pie-color: #4381e6;
+}
+.default-color1.chart-pie {
+    -fx-pie-color: #f27d0f;
+}
